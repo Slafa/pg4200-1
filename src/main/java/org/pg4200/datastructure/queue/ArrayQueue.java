@@ -21,6 +21,7 @@ public class ArrayQueue<T> implements MyQueue<T>{
     }
 
     public ArrayQueue(int capacity){
+
         data = new Object[capacity];
     }
 
